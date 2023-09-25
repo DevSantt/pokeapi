@@ -59,6 +59,7 @@ export const Profile = () => {
                     return(
                         <li key={index}>
                             <h4>{element.name}</h4>
+                            <p>{element.effect_entries[1].language.name === "en" ? element.effect_entries[1].effect : element.effect_entries[0].effect}</p>
                         </li>
                     )
                 })

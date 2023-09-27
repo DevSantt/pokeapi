@@ -23,6 +23,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 62,5%;
     background-color: var(--sky-blue-light);
     box-sizing: border-box;
+    font-family: 'Roboto', sans-seriff;
 
   }
 

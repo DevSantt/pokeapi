@@ -77,6 +77,7 @@ export const Profile = () => {
                     }
                 </ul>
 
+<<<<<<< HEAD
             </div>
             <div>
                 <h3>Moves</h3>
@@ -90,10 +91,27 @@ export const Profile = () => {
                     }
                 </ul>
             </div>
+=======
+           <ul>
+            {
+                ability.map((element, index) =>{
+                    return(
+                        <li key={index}>
+                            <h4>{element.name}</h4>
+                            <p>{element.effect_entries[1].language.name === "en" ? element.effect_entries[1].effect : element.effect_entries[0].effect}</p>
+                        </li>
+                    )
+                })
+            }
+           </ul>
+
+
+>>>>>>> c3c1b50d53c549c0966c99a50340d55ef2bee3e3
         </section>
 
     )
 }
+<<<<<<< HEAD
 
 const Type = styled.span`
 border: 1px solid #000;
@@ -158,3 +176,5 @@ background-color: #05060A
 ${props => props.type === "fairy" && css`
 background-color: #EC1469
 `}`
+=======
+>>>>>>> c3c1b50d53c549c0966c99a50340d55ef2bee3e3

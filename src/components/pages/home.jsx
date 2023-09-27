@@ -31,16 +31,18 @@ export const Home = () => {
             })
     }
 
+    console.log(pokemons.pokemonsList)
+
 
     const getMorePokemons = () => {
-
-            pokeApi
-            .get("pokemon?limit=10&offset=10")
+    pokeApi
+            .get(`pokemon?limit=10&offset=${pokemons.pokemonsList.length}`)
             .then((res) => setPokemons({
                 pokemonsList: [...pokemons.pokemonsList, ...res.data.results]}))
             .catch((err) => {
                 console.error("something is wrong!" + err)
             })
+
         
     }
 

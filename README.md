@@ -1,5 +1,5 @@
 # PokeAPI - Projeto Pokedex
-### Sumary
+### Sumário 
 
 - [O projeto](#o-projeto)
 - [Funcionalidades](#funcionalidades)
@@ -62,9 +62,11 @@ Passo 1: Crie um clone desde repositório em algum diretório de seu computador.
 
 Passo 2: Após clonar o projeto, abra o terminal de sua preferência no diretório usado.
 
-Passo 3: Digite o comando "npm run dev" e aguarde o carregamento.
+Passo 3: Com o terminal aberto, instale as dependências do projeto com o comando "npm install".
 
-Passo 4: Agora basta teclar a tecla "o" e o projeto será aberto em seu navegador.
+Passo 4: Digite o comando "npm run dev" e aguarde o carregamento.
+
+Passo 5: Agora basta teclar a tecla "o" e o projeto será aberto em seu navegador.
 
 ## Autor
 Siga minhas redes!

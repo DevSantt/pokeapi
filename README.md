@@ -14,7 +14,7 @@
 
 ## O Projeto
 
-![Project Gif](./src/img/overview.gif)
+![Project Gif](./src/img/overviewa.gif)
 
 Na obra Pokemon, pokedex se trata de uma enciclopédia portátil que detém todas as espécies de pokémon. Por isso o nome Projeto Pokedex, que funciona como uma pokedex virtual que recebe os dados de uma API (PokeApi). O objetivo desse projeto é criar um SPA que exiba diversos cards de pokemons e, quando um desses cards for clicado pelo usuário, será direcionado para uma nova tela onde haverá informações aprofundadas daquele pokemon em um layout personalizado que simula como como se o usuário estivesse consultando-as numa pokedex.
 

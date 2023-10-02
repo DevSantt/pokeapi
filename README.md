@@ -11,8 +11,6 @@
 -[Author](#author)
 
 
-
-
 ## O Projeto
 
 ![Project Gif](./src/img/overviewa.gif)

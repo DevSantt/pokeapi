@@ -8,7 +8,8 @@
     - [Mobile Design](#mobile-design)
 - [Tecnologias Usadas](#teconologias-usadas)
 - [Planejamento e Execução](#planejamento-e-execucao)
--[Author](#author)
+- [Rodando o projeto](#rodando-o-projeto)
+- [Autor](#autor)
 
 
 ## O Projeto
@@ -53,8 +54,20 @@ O planejamento e execução foi realizado sefuindo as seguintes etapas:
 6. Criar um alternador de temas com Context API para englobar toso o projeto e usar as cores que foram criadas em variáveis.
 7. Tornar o projeto responsivo para diferentes tipos de tela.
 
-## Author
-Follow my profiles!
+## Rodando o Projeto
+
+Para executar exte projeto em sua máquina, siga os seguintes passos:
+
+Passo 1: Crie um clone desde repositório em algum diretório de seu computador. Você pode fazer isso diretamente pelo Github ou com o comando git clone (url) no git bash.
+
+Passo 2: Após clonar o projeto, abra o terminal de sua preferência no diretório usado.
+
+Passo 3: Digite o comando "npm run dev" e aguarde o carregamento.
+
+Passo 4: Agora basta teclar a tecla "o" e o projeto será aberto em seu navegador.
+
+## Autor
+Siga minhas redes!
 
 - Github: [/omatheusant](https://github.com/omatheusant)
 - Linkedin: [/omatheussant](https://www.linkedin.com/in/omatheussant/)

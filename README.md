@@ -6,7 +6,8 @@
 - [Design](#design)
     - [Desktop Design](#desktop-design)
     - [Mobile Design](#mobile-design)
-- [What I Learn](#what-i-learn)
+- [Tecnologias Usadas](#teconologias-usadas)
+- [Planejamento e Execução](#planejamento-e-execucao)
 -[Author](#author)
 
 

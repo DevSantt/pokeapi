@@ -1,6 +1,6 @@
 import './App.css'
 import { Router } from './components/router'
-import { GlobalStyle } from './services/globalStyle'
+import { GlobalStyle } from './styles/globalStyle'
 
 function App() {
 

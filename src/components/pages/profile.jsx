@@ -136,6 +136,8 @@ export const Profile = () => {
 const Main = styled.main`
     background-color: ${props => props.theme.bgCardAndInfo};
     font-family: 'Roboto', sans-seriff;
+    transition: 0.5s ease-in-out;
+
     @media (max-width: 768px) {
         display: flex;
         flex-direction: column;
@@ -152,6 +154,7 @@ const Header = styled.header`
     align-items: center;
     padding: 10px;
     position: relative;
+    transition: 0.5s ease-in-out;
     @media (max-width: 768px) {
     justify-content: flex-start;
 }
@@ -163,6 +166,7 @@ const HeaderTittle = styled.h1`
     left: 80px;
     text-transform: uppercase;
     font-size: 1.8rem;
+    
     @media (max-width: 768px) {
         left: 50px;
         font-size: 1.4rem;
@@ -201,6 +205,8 @@ background-color:  ${props => props.theme.background};
 height: fit-content;
 width: 100vw;
 position: relative;
+transition: 0.5s ease-in-out;
+
 @media (max-width: 768px) {
 display: flex;
 justify-content: center;}
@@ -221,6 +227,8 @@ const PokeBaseInfo = styled.div`
     display: flex;
     color: ${props => props.theme.colorCardAndInfo};
     background-color: ${props => props.theme.color};
+    transition: 0.5s ease-in-out;
+
     width: fit-content;
     position: absolute;
     bottom: -18px;
@@ -249,6 +257,8 @@ const Info = styled.p`
 
 const ImgContainer = styled.div`
 background-color: ${props => props.theme.background};
+transition: 0.5s ease-in-out;
+
 padding: 15px;
 width: fit-content;
 position: absolute;
@@ -283,6 +293,7 @@ const PokePrincipalInfo = styled.div`
 const InfoTitle = styled.h3`
     background-color: ${props => props.theme.background};
     width: fit-content;
+    transition: 0.5s ease-in-out;
     padding: 2px 30px 0px 10px;
     text-transform: uppercase;
     color: white;
@@ -311,6 +322,8 @@ padding: 10px;
 border: 2px solid black;
 background-color: ${props => props.theme.bgCardAndInfo};
 max-width: 100vw;
+transition: 0.5s ease-in-out;
+
 `
 
 const Move = styled.li`
@@ -322,6 +335,8 @@ border-radius: 5px;
 max-width: 150px;
 margin: 5px 5px 8px 5px;
 cursor: default;
+transition: 0.5s ease-in-out;
+
 &:hover{
     background-color: ${props => props.theme.color}
 }

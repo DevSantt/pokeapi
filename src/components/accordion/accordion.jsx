@@ -28,6 +28,8 @@ const Tittle = styled.h3`
     text-transform: uppercase;
     font-size: 1.1rem;
     padding: 15px 5px;
+    transition: 0.5s ease-in-out;
+
 
 `
 
@@ -38,6 +40,8 @@ color:   ${props => props.theme.colorCardAndInfo};
     text-align: left;
     font-size: 1.2rem;
     padding: 10px 5px;
+    transition: 0.5s ease-in-out;
+
     @media (max-width: 768px) {
     max-width: 80vw;
 }

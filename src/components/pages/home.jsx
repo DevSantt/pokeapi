@@ -88,12 +88,11 @@ export const Home = () => {
 const Main = styled.main`
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: sel;
 background-color: ${props => props.theme.background};
 transition: 0.5s ease-in-out;
-height: 100vh;
-
-    `
+height: 100%;
+`
 
 
 const Section = styled.section`
@@ -103,9 +102,6 @@ const Section = styled.section`
     justify-content: center;
     background-color: ${props => props.theme.background};
     transition: 0.5s ease-in-out;
-
-    
-
 
 `
 

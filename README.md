@@ -29,12 +29,19 @@ Está aplicação possui apenas duas páginas que podem ser acessadas pelo usuá
 ## Design
 
 ### Desktop Design 
+<<<<<<< HEAD
 ![Home Desktop](./src/img/homeDesktopView.png)
 ![Profile Desktop](./src/img/profileDesktop.png)
 
 ### Mobile Design
 ![Home Mobile](./src/img/homeMobileView.png)
 ![Profile Mobile](./src/img/profileMobile.png)
+=======
+![A fazer: Adicionar Screenshot]
+
+### Mobile Design
+![A fazer: Adicionar Screenshot]
+>>>>>>> 657d076694b11c8d402c002b3bce435f151676e6
 
 ## Tecnologias usadas
 Para este projeto, as principais tecnologias e ferramentas usadas foram:
